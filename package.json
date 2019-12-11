@@ -29,5 +29,23 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.2.0",
+    "cookie-parser": "1.4.4",
+    "dateformat": "^3.0.3",
+    "ejs": "^3.0.1",
+    "express": "4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.3.0",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.12",
+    "morgan": "1.9.1",
+    "nodemon": "2.0.1",
+    "path": "^0.12.7"
   }
 }

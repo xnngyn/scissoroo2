@@ -15,7 +15,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Aller Anfang ist schwer :('
+      msg: 'Aller Adrian Anfang ist sau schwer :('
     }
   }
 }

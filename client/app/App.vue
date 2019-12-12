@@ -9,6 +9,7 @@
     <router-link to="/">Home</router-link>
     <router-link to="/signin">Einloggen</router-link>
     <router-link to="/posts">Post</router-link>
+    <router-link to="/results">Ergebnisse</router-link>
     <hr>
     <h1>{{ msg }}</h1>
     </body>

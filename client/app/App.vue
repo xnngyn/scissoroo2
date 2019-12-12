@@ -11,6 +11,7 @@
     <router-link to="/posts">Post</router-link>
     <router-link to="/results">Ergebnisse</router-link>
     <hr>
+    <route-view></route-view>
     <h1>{{ msg }}</h1>
     </body>
   </div>

@@ -1,11 +1,15 @@
 <template>
   <div id="app">
-      <h1>Root Page</h1>
-      <router-view></router-view>
+      <h1>Scissoroo</h1>
   <div id="test">
     <img src="https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Scissoroo_Logo.jpg" width="100" height="100" alt="">
 </div> 
   <body> 
+    <hr>
+    <router-link to="/">Home</router-link>
+    <router-link to="/signin">Home</router-link>
+    <router-link to="/posts">Home</router-link>
+    <hr>
     <h1>{{ msg }}</h1>
     </body>
   </div>

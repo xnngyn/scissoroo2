@@ -21,7 +21,7 @@ import HomeNichtEingeloggt from './component/HomeNichtEingeloggt'
 
 export default {
   components: {
-'HomeNichtEingeloggt': HomeNichtEingeloggt,
+'HomeNichtEingeloggt': HomeNichtEingeloggt
 
 
   },

@@ -17,26 +17,26 @@
     <router-link to="/signin">Einloggen</router-link>
     <router-link to="/posts">Post</router-link>
     <router-link to="/results">Ergebnisse</router-link>
-    <router-link to="/HomeText">HomeText anzeigen</router-link>
     <hr>
+    <HomeTexti></HomeTexti>
     <router-view></router-view>
-    <h1>{{ msg }}</h1>
     </body>
   </div>
 </template>
 
 <script>
 import HomeButton from './component/HomeButton'
+import HomeText from './component/HomeText'
 
 export default {
   components: {
-'HomeButtons': HomeButton
+'HomeButtons': HomeButton,
+'HomeTexti': HomeText
 
   },
   name: 'app',
   data () {
     return {
-      msg: 'Aller Xuan-Anh Penis ist sau leicht :('
     }
   }
 }

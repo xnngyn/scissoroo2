@@ -1,4 +1,4 @@
-import Api from '../core/Api'
+import Api from './Api'
 
 export default {
   fetchPosts () {

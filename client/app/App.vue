@@ -7,8 +7,8 @@
   <body> 
     <hr>
     <router-link to="/">Home</router-link>
-    <router-link to="/signin">Home</router-link>
-    <router-link to="/posts">Home</router-link>
+    <router-link to="/signin">Einloggen</router-link>
+    <router-link to="/posts">Post</router-link>
     <hr>
     <h1>{{ msg }}</h1>
     </body>

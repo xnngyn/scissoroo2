@@ -8,35 +8,27 @@
 		  <a class="navbar-brand" href="/users/loggedIn"><img src="https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Scissoroo_Logo.jpg" width="100" height="100" alt=""></a> <!--../Bilder/Scissoroo_Logo.jpg-->
 			<form class="form-inline">
 			</form>
+      <HomeNichtEingeloggt></HomeNichtEingeloggt>
       </nav>	
-		 
-      
-    <hr>
-    <HomeButtons></HomeButtons>
-    <router-link to="/">Home</router-link>
-    <router-link to="/signin">Einloggen</router-link>
-    <router-link to="/posts">Post</router-link>
-    <router-link to="/results">Ergebnisse</router-link>
-    <hr>
-    <HomeTexti></HomeTexti>
-    <router-view></router-view>
+
     </body>
   </div>
 </template>
 
 <script>
-import HomeButton from './component/HomeButton'
-import HomeText from './component/HomeText'
+import HomeNichtEingeloggt from './component/HomeNichtEingeloggt'
+
 
 export default {
   components: {
-'HomeButtons': HomeButton,
-'HomeTexti': HomeText
+'HomeNichtEingeloggt': HomeNichtEingeloggt,
+
 
   },
   name: 'app',
   data () {
     return {
+      
     }
   }
 }

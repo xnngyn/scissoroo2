@@ -4,6 +4,7 @@
         <button>Registrieren</button> 
         <button>Anmelden</button>
         <HomeText></HomeText>
+        <Results></Results>
 
     </div>
 
@@ -11,11 +12,13 @@
 
 <script>
 import HomeText from './HomeText'
+import Results from './Results'
 
 export default {
 
     components: {
-        'HomeText': HomeText
+        'HomeText': HomeText,
+        'Results': Results
     },
     name: 'buttons',
     data () {

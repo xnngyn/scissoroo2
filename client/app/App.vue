@@ -7,18 +7,16 @@
     <nav class="navbar navbar-light bg-light">
 		  <a class="navbar-brand" href="/users/loggedIn"><img src="https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Scissoroo_Logo.jpg" width="100" height="100" alt=""></a> <!--../Bilder/Scissoroo_Logo.jpg-->
 			<form class="form-inline">
-				<a class="btn btn-secondary mr-sm-2" href="/users/profile" role="button">Mein Profil</a>
-				<a class="btn btn-secondary"  href="/users/logout" role="button">Ausloggen</a>
 			</form>
       </nav>	
 		 
       
     <hr>
+    <HomeButtons></HomeButtons>
     <router-link to="/">Home</router-link>
     <router-link to="/signin">Einloggen</router-link>
     <router-link to="/posts">Post</router-link>
     <router-link to="/results">Ergebnisse</router-link>
-    <router-link to="/HomeButton">Buttons anzeigen</router-link>
     <router-link to="/HomeText">HomeText anzeigen</router-link>
     <hr>
     <router-view></router-view>
@@ -28,7 +26,13 @@
 </template>
 
 <script>
+import HomeButton from './component/HomeButton'
+
 export default {
+  components: {
+'HomeButtons': HomeButton
+
+  },
   name: 'app',
   data () {
     return {

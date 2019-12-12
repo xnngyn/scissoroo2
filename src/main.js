@@ -5,6 +5,8 @@ import SignIn from '../client/app/component/SignIn'
 import Posts from '../client/app/component/Posts'
 import App from '../client/app/App.vue'
 import Results from '../client/app/component/Results'
+import HomeButton from '../client/app/component/HomeButton'
+
 
 Vue.use(Router)
 

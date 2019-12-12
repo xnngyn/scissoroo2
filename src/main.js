@@ -8,6 +8,7 @@ import Results from '../client/app/component/Results'
 
 
 
+
 Vue.use(Router)
 
 const routes = [

@@ -20,6 +20,7 @@ import SignIn from './SignIn';
 import SignUp from './SignUp';
 
 
+
 export default {
 
     components: {
@@ -31,7 +32,10 @@ export default {
     name: 'buttons',
     data () {
         return {
-            component: 'HomeText'
+
+            component:'HomeText'
+            
+            
    
     }
   }

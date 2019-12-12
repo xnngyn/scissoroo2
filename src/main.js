@@ -6,6 +6,7 @@ import Posts from '../client/app/component/Posts'
 import App from '../client/app/App.vue'
 import Results from '../client/app/component/Results'
 import HomeButton from '../client/app/component/HomeButton'
+import HomeText from '../client/app/component/HomeText'
 
 
 Vue.use(Router)
@@ -14,7 +15,9 @@ const routes = [
   {path: '/', component: Home},
   {path: '/signin', component: SignIn},
   {path: '/posts', component: Posts},
-  {path: '/results', component: Results}
+  {path: '/results', component: Results},
+  {path: '/homebutton', component: HomeButton},
+  {path: '/hometext', component: HomeText}
 ];
 
 const router = new Router({

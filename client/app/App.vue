@@ -21,6 +21,8 @@
     <router-link to="/signin">Einloggen</router-link>
     <router-link to="/posts">Post</router-link>
     <router-link to="/results">Ergebnisse</router-link>
+    <router-link to="/HomeButton">Buttons anzeigen</router-link>
+    <router-link to="/HomeText">HomeText anzeigen</router-link>
     <hr>
     <router-view></router-view>
     <h1>{{ msg }}</h1>
@@ -42,8 +44,8 @@ export default {
 <style>
 
 
-#test {
-  background-color: aliceblue;
+#Test {
+  background-color: white;
   height: 100%;
   
 }

@@ -12,13 +12,13 @@
 
 <script>
 import HomeText from './HomeText'
-import Results from './Results'
+
 
 export default {
 
     components: {
         'HomeText': HomeText,
-        'Results': Results
+        
     },
     name: 'buttons',
     data () {
@@ -30,5 +30,8 @@ export default {
 </script>
 
 <style>
+
+ 
+
 
 </style>

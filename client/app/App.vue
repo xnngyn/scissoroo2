@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <h1>App.vue Datei</h1>
+      <h1>Root Page</h1>
       <router-view></router-view>
   <div id="test">
     <img src="https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Scissoroo_Logo.jpg" width="100" height="100" alt="">

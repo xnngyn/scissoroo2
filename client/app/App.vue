@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-      <h1>Scissoroo</h1>
-  
-		
 
   <body> 
     
@@ -52,11 +49,22 @@ export default {
 
 html{
 	height: 120%;
-	background-color: gray;
+  background-color: grey;
 	background-image: url(https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Home_Hintergrund.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+}
+
+body {
+  background-color: white;
+
+
+}
+
+nav{
+
+  background-color: white;
 }
 
 </style>

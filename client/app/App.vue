@@ -22,7 +22,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Aller Adrian Anfang ist sau schwer :('
+      msg: 'Aller Xuan-Anh Penis ist sau leicht :('
     }
   }
 }

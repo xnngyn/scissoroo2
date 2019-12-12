@@ -5,7 +5,7 @@
 		
 
   <body> 
-    <div id:="Test">
+    
 
     <nav class="navbar navbar-light bg-light">
 		  <a class="navbar-brand" href="/users/loggedIn"><img src="https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Scissoroo_Logo.jpg" width="100" height="100" alt=""></a> <!--../Bilder/Scissoroo_Logo.jpg-->
@@ -14,7 +14,7 @@
 				<a class="btn btn-secondary"  href="/users/logout" role="button">Ausloggen</a>
 			</form>
       </nav>	
-		  </div>
+		 
       
     <hr>
     <router-link to="/">Home</router-link>
@@ -50,12 +50,10 @@ export default {
   
 }
 
-
-
-body {
-	height: 100%;
-  background-color: grey;
-  background-image: url(https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Home_Hintergrund.jpg);
+html{
+	height: 120%;
+	background-color: gray;
+	background-image: url(https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Home_Hintergrund.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;

@@ -5,6 +5,7 @@ import SignIn from '../client/app/component/SignIn'
 import Posts from '../client/app/component/Posts'
 import App from '../client/app/App.vue'
 import Results from '../client/app/component/Results'
+import MyProfile from '../client/app/component/MyProfile'
 
 
 
@@ -16,6 +17,7 @@ const routes = [
   {path: '/signin', component: SignIn},
   {path: '/posts', component: Posts},
   {path: '/results', component: Results},
+  {path: '/myprofile', component: MyProfile},
 ];
 
 const router = new Router({

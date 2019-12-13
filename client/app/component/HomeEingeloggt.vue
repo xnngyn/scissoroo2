@@ -1,8 +1,7 @@
 <template>
     <div id="buttons">
 
-        <button @click="component='SignUp'">Registrieren</button> 
-        <button @click="component='SignIn'">Anmelden</button>
+        <button @click="component='MyProfile'">Mein Profil</button> 
 
         <component v-bind:is="component"></component>
 
@@ -16,8 +15,6 @@
 
 <script>
 import HomeText from './HomeText';
-import SignIn from './SignIn';
-import SignUp from './SignUp';
 import MyProfile from './MyProfile';
 
 
@@ -26,9 +23,7 @@ export default {
 
     components: {
         'HomeText': HomeText,
-        'SignIn': SignIn,
-        'SignUp': SignUp,
-        'MyProfile': MyProfile
+        'MyProfile': MyProfile,
         
     },
     name: 'buttons',

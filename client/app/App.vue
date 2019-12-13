@@ -17,11 +17,13 @@
 
 <script>
 import HomeNichtEingeloggt from './component/HomeNichtEingeloggt'
+import HomeEingeloggt from './component/HomeEingeloggt'
 
 
 export default {
   components: {
-'HomeNichtEingeloggt': HomeNichtEingeloggt
+'HomeNichtEingeloggt': HomeNichtEingeloggt,
+'HomeEingeloggt': HomeEingeloggt
 
 
   },

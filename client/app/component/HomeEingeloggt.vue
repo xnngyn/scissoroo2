@@ -1,36 +1,30 @@
 <template>
-    <div id="buttons">
+    <div id="Buttons">
 
-        <button @click="component='MyProfile'">Mein Profil</button> 
 
-        <component v-bind:is="component"></component>
+<h1> EINGELOGGT! </h1>
+        <button>Mein Profil</button> 
+        <button>Ausloggen</button>
+
+        
 
 
         
-        <Results></Results>
+        
 
     </div>
 
 </template>
 
 <script>
-import HomeText from './HomeText';
-import MyProfile from './MyProfile';
-
-
-
 export default {
-
     components: {
-        'HomeText': HomeText,
-        'MyProfile': MyProfile,
+       
         
     },
     name: 'buttons',
     data () {
         return {
-
-            component:'HomeText'
             
             
    
@@ -40,8 +34,5 @@ export default {
 </script>
 
 <style>
-
  
-
-
 </style>

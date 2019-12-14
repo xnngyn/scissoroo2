@@ -28,4 +28,8 @@ export default {
     text-align: center;
 }
 
+mark {
+	background-color: yellow;
+}
+
 </style>

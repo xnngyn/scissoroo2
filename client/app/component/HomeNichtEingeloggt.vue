@@ -1,8 +1,8 @@
 <template>
     <div id="buttons">
 
-        <button @click="component='SignUp'">Registrieren</button> 
-        <button @click="component='SignIn'">Anmelden</button>
+        <button class="btn btn-secondary mr-sm-2" @click="component='SignUp'">Registrieren</button> 
+        <button class="btn btn-secondary" @click="component='SignIn'">Anmelden</button>
 
         <component v-bind:is="component"></component>
 

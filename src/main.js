@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomeText from '../client/app/component/HomeText'
-import SignIn from '../client/app/component/SignIn'
-import Posts from '../client/app/component/Posts'
-import App from '../client/app/App.vue'
-import Results from '../client/app/component/Results'
-import MyProfile from '../client/app/component/MyProfile'
+import HomeText from '../client/src/component/HomeText'
+import SignIn from '../client/src/component/SignIn'
+import Posts from '../client/src/component/Posts'
+import App from '../client/src/App.vue'
+import Results from '../client/src/component/Results'
+import MyProfile from '../client/src/component/MyProfile'
 
 
 

@@ -18,6 +18,7 @@ const routes = [
   {path: '/posts', component: Posts},
   {path: '/results', component: Results},
   {path: '/myprofile', component: MyProfile},
+  {path: '/register', component: SignUp}
 ];
 
 const router = new Router({

@@ -8,7 +8,8 @@
 		  <a class="navbar-brand"> <button v-on:click="HomeNichtEingeloggt.data().component='HomeText'"><img src="https://raw.githubusercontent.com/xnngyn/Scissoroo/master/public/images/Scissoroo_Logo.jpg" width="100" height="100" alt=""> </button></a> <!--../Bilder/Scissoroo_Logo.jpg-->
 			<form class="form-inline">
 			</form>
-      <HomeNichtEingeloggt></HomeNichtEingeloggt>
+      <HomeNichtEingeloggt v-if="!eingeloggt"></HomeNichtEingeloggt>
+      <HomeEingeloggt v-else-if="eingeloggt"></HomeEingeloggt>
       </nav>	
 
     </body>
@@ -16,7 +17,7 @@
 </template>
 
 <script>
-import HomeNichtEingeloggt from './component/HomeNichtEingeloggt'
+import HomeNichtEingeloggt from './component/HomeNichtEingeloggt';
 import HomeEingeloggt from './component/HomeEingeloggt'
 
 
@@ -31,7 +32,7 @@ export default {
   data () {
     return {
 
-      
+      eingeloggt:false
       
     }
   },

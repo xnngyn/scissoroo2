@@ -64,7 +64,9 @@ export default {
 
 <style>
 
- 
+ buttons{
+    float:right;
+ }
 
 
 </style>

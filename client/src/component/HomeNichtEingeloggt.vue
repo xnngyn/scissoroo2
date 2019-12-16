@@ -1,7 +1,6 @@
 <template>
     <div id="buttons">
 
-        <p>{{ this.$store.state.componentState }} </p>
 
         <button class="btn btn-secondary mr-sm-2" @click="setSignUp">Registrieren</button> 
         <button class="btn btn-secondary" @click="setSignIn">Anmelden</button>

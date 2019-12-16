@@ -17,5 +17,6 @@ export default new Router({
       name: 'Posts',
       component: Posts
     }
-  ]
+  ],
+  mode: 'history'
 })

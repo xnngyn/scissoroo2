@@ -1,9 +1,11 @@
 <template>
     <div id="buttons">
 
-        <button class="btn btn-secondary mr-sm-2" @click="this.$store.commit('changeComponent','SignUp')">Registrieren</button> 
-        <button class="btn btn-secondary" @click="this.$store.mutations.change('changeComponent','SignIn')">Anmelden</button>
-        <button class="btn btn-secondary" @click="component='Results'">View Results</button>
+        <p>{{ this.$store.state.componentState }} </p>
+
+        <button class="btn btn-secondary mr-sm-2" @click="setSignUp">Registrieren</button> 
+        <button class="btn btn-secondary" @click="setSignIn">Anmelden</button>
+         <button class="btn btn-secondary" @click="setResults">Results</button>
 
         <component v-bind:is="$store.getters.componentState"></component>
 
@@ -43,7 +45,21 @@ export default {
             
    
     }
+  },
+  methods: {
+      setSignUp: function() {
+          this.$store.state.componentState = 'SignUp';
+      },
+       setSignIn: function() {
+          this.$store.state.componentState = 'SignIn';
+
+  },
+   setResults: function() {
+          this.$store.state.componentState = 'Results';
+
   }
+}
+
 }
 </script>
 

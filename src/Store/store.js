@@ -10,7 +10,7 @@ export const store = new Vuex.Store({
     },
 
     mutations: {
-        changeComponent(state, componentState) {
+        changeComponent(state, payload) {
             state.componentState = componentState
             }
 

@@ -9,6 +9,10 @@ app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
+app.get('/results', (req, res) =>{
+
+});
+
 app.post('/insertuser', (req, res) => {
     //Get Form Values
     var fname = req.body.fname;

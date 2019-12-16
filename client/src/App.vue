@@ -18,7 +18,7 @@
 
 <script>
 import HomeNichtEingeloggt from './component/HomeNichtEingeloggt';
-import HomeEingeloggt from './component/HomeEingeloggt'
+import HomeEingeloggt from './component/HomeEingeloggt';
 
 
 export default {

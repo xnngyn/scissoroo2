@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import HomeNichtEingeloggt from './components/HomeNichtEingeloggt';
-import HomeEingeloggt from './components/HomeEingeloggt';
+import HomeNichtEingeloggt from '@/components/HomeNichtEingeloggt';
+import HomeEingeloggt from '@/components/HomeEingeloggt';
 
 
 export default {

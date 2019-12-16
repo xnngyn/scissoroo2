@@ -1,6 +1,7 @@
 <template>
-<h1>GIDRA</h1>
-    
+<h1>Überschrift Result</h1>
+
+
 </template>
 
 <script>

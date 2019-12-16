@@ -1,11 +1,16 @@
 <template>
     <div id="buttons">
 
+
         <button class="btn btn-secondary mr-sm-2" @click="setSignUp">Registrieren</button> 
         <button class="btn btn-secondary" @click="setSignIn">Anmelden</button>
-        <button class="btn btn-secondary" @click="setResults">Results</button>
+         <button class="btn btn-secondary" @click="setResults">Results</button>
 
         <component v-bind:is="$store.getters.componentState"></component>
+
+
+        
+        
 
     </div>
 
@@ -17,6 +22,8 @@ import SignIn from './SignIn';
 import SignUp from './SignUp';
 import MyProfile from './MyProfile';
 import Results from './Results';
+
+
 
 export default {
 
@@ -31,8 +38,11 @@ export default {
     name: 'buttons',
     data () {
         return {
+
             component:'HomeText'
-     
+            
+            
+   
     }
   },
   methods: {
@@ -54,7 +64,9 @@ export default {
 
 <style>
 
- 
+ buttons{
+    float:right;
+ }
 
 
 </style>

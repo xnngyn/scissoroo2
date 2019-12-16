@@ -6,7 +6,7 @@ import Posts from '../client/src/component/Posts'
 import App from '../client/src/App.vue'
 import Results from '../client/src/component/Results'
 import MyProfile from '../client/src/component/MyProfile'
-
+import { store } from './store/store'
 
 
 
@@ -18,7 +18,6 @@ const routes = [
   {path: '/posts', component: Posts},
   {path: '/results', component: Results},
   {path: '/myprofile', component: MyProfile},
-  {path: '/register', component: SignUp}
 ];
 
 const router = new Router({
@@ -28,6 +27,7 @@ const router = new Router({
 
 new Vue({
   el: '#app',
+  store,
   router,
   render: h => h(App)
 });

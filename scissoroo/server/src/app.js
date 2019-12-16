@@ -17,4 +17,14 @@ app.get('/', (req, res) => {
   )
 })
 
+
+var mongoose = require('mongoose');
+var mongoDB = 'mongodb+srv://scissoroo_admin:scissoroo_admin@scissoroodb-vjd2z.mongodb.net/scissoroo?retryWrites=true&w=majority';
+mongoose.connect(mongoDB, { useNewUrlParser: true });
+var db = mongoose.connection;
+db.on("error", console.error.bind(console, "connection error"));
+db.once("open", function(callback){
+  console.log("Connection Succeeded");
+});
+
 app.listen(process.env.PORT || 8081)

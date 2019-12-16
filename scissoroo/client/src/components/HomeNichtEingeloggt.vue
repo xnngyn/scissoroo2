@@ -31,7 +31,6 @@ export default {
     name: 'buttons',
     data () {
         return {
-
             component:'HomeText'
      
     }
